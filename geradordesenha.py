@@ -1,11 +1,11 @@
 import random
 
-length = 10
-characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()"
+tamanho = 10
+caracteries = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()"
 
-password = ""
+senha = ""
 
-for i in range(length):
-    password += random.choice(characters)
+for i in range(tamanho):
+    senha += random.choice(caracteries)
 
-print("Senha gerada: ", password)
+print("Senha gerada: ", senha)
